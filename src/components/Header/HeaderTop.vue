@@ -2,7 +2,7 @@
 export default {
     name: 'HeaderTop',
     props: {
-        brands: String
+        brands: Array
     }
 }
 </script>
