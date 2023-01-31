@@ -1,9 +1,10 @@
 <script>
 import HeaderTop from './HeaderTop.vue';
+import HeaderBottom from './HeaderBottom.vue';
 import { store } from '../../data/store';
 export default {
     name: 'AppHeader',
-    components: { HeaderTop },
+    components: { HeaderTop, HeaderBottom },
     data() {
         return {
             store
@@ -16,7 +17,7 @@ export default {
     <header>
 
         <header-top :brands="store.brandsIcon"></header-top>
-
+        <header-bottom :links="store.Headerlinks"></header-bottom>
     </header>
 </template>
 
