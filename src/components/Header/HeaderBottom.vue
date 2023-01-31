@@ -1,6 +1,8 @@
 <script>
+import AppButton from './AppButton.vue';
 export default {
     name: 'HeaderBottom',
+    components: { AppButton },
     props: {
         links: Object
     },
@@ -32,10 +34,11 @@ export default {
                     <div class=" search d-flex justify-content-center align-items-center text-light">
                         <font-awesome-icon icon="fa-solid fa-search"></font-awesome-icon>
                     </div>
-                    <div class="shop d-flex align-items-center">
+                    <div class="shop d-flex gap-3 align-items-center">
                         <font-awesome-icon icon="fa-solid fa-cart-shopping"></font-awesome-icon>
                         <div class="number-items-in-cart d-flex justify-content-center align-items-center text-light">0
                         </div>
+                        <App-Button class=" order text-uppercase text-light">order now</App-Button>
                     </div>
                 </div>
             </div>
@@ -82,9 +85,14 @@ a {
             border-radius: 50%;
             background-color: $bg-orange;
             position: absolute;
-            top: -65%;
-            right: -65%;
+            top: 0%;
+            right: 82%;
             font-size: 1rem;
+        }
+
+        .btn {
+            background-color: $bg-orange;
+            letter-spacing: -1px;
         }
     }
 }
