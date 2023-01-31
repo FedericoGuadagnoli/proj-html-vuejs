@@ -1,9 +1,10 @@
 <script>
 import JumbotronSection from './JumbotronSection.vue';
+import NaturalProducts from './NaturalProducts.vue';
 import { store } from '../../data/store';
 export default {
     name: 'AppMain',
-    components: { JumbotronSection },
+    components: { JumbotronSection, NaturalProducts },
     data() {
         return {
             store
@@ -14,6 +15,7 @@ export default {
 
 <template>
     <jumbotron-section></jumbotron-section>
+    <natural-products></natural-products>
 </template>
 
 <style>
