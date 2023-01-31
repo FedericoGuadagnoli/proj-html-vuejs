@@ -13,7 +13,8 @@ import { faPinterestP } from '@fortawesome/free-brands-svg-icons';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import { faGooglePlusG } from '@fortawesome/free-brands-svg-icons';
-library.add(faSearch, faLocationDot, faEnvelope, faClockFour, faFacebookF, faTwitter, faInstagram, faPinterestP, faMagnifyingGlass, faCartShopping, faGooglePlusG);
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+library.add(faSearch, faLocationDot, faEnvelope, faClockFour, faFacebookF, faTwitter, faInstagram, faPinterestP, faMagnifyingGlass, faCartShopping, faGooglePlusG, faChevronDown);
 import App from './App.vue'
 const app = createApp(App);
 app.component('font-awesome-icon', FontAwesomeIcon);
