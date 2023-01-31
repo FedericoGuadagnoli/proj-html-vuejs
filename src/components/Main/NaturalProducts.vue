@@ -64,7 +64,7 @@ export default {
 
 h1 {
     color: $color-green;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 span {
