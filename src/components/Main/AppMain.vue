@@ -14,8 +14,10 @@ export default {
 </script>
 
 <template>
-    <jumbotron-section></jumbotron-section>
-    <natural-products :products="store.naturalProducts"></natural-products>
+    <main>
+        <jumbotron-section></jumbotron-section>
+        <natural-products :products="store.naturalProducts"></natural-products>
+    </main>
 </template>
 
 <style>
