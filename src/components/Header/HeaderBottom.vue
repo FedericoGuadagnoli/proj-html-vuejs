@@ -1,5 +1,5 @@
 <script>
-import AppButton from './AppButton.vue';
+import AppButton from '../AppButton.vue';
 export default {
     name: 'HeaderBottom',
     components: { AppButton },
