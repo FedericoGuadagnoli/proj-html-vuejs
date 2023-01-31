@@ -1,6 +1,9 @@
 <script>
 export default {
-    name: 'HeaderBottom'
+    name: 'HeaderBottom',
+    props: {
+        links: Object
+    }
 }
 </script>
 
