@@ -42,6 +42,7 @@ export const store = reactive({
     brandsIcon: ['fa-brands fa-facebook-f', 'fa-brands fa-twitter', 'fa-brands fa-instagram', 'fa-brands fa-pinterest-p'],
 
     naturalProducts: ['fe3.jpg', 'fe1.jpg', 'fe2.jpg', 'fe1.jpg'],
+    listCategoriesProducts: ['all product', 'apple', 'food', 'orange', 'vegetable'],
     shopProducts: [
         {
             id: '1',
