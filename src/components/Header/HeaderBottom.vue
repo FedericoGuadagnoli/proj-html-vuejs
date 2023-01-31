@@ -77,13 +77,14 @@ a {
         color: $color-green;
 
         .number-items-in-cart {
-            width: .85rem;
-            height: .85rem;
+            width: 1.1rem;
+            height: 1.1rem;
             border-radius: 50%;
             background-color: $bg-orange;
             position: absolute;
-            top: -45%;
-            right: -45%;
+            top: -65%;
+            right: -65%;
+            font-size: 1rem;
         }
     }
 }
