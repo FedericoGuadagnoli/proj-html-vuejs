@@ -15,7 +15,6 @@ export default {
 
 <template>
     <header>
-
         <header-top :brands="store.brandsIcon"></header-top>
         <header-bottom :links="store.Headerlinks"></header-bottom>
     </header>
