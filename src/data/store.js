@@ -120,7 +120,6 @@ export const store = reactive({
         {
             number: '30+',
             text: 'award winning',
-            img: 'counter-shap1.png'
         }
     ],
     news: [
