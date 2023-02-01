@@ -164,7 +164,7 @@ export const store = reactive({
     logos: ['brand1.png', 'brand4.png', 'brand3.png', 'brand1.png', 'brand2.png'],
 
     Footerlinks: ['organic food shop', 'out team & condition', 'gogrin faw section', 'our team member', 'our latest news feed'],
-    blog: [
+    blogs: [
         {
             title: 'out latest blog',
             image: 'blo1-70x70.jpg',
