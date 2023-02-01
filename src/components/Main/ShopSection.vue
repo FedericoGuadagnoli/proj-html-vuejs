@@ -1,10 +1,10 @@
 <script>
-import ContactSection from './Shop Subsection/ContactSection.vue';
-import DiscountSection from './Shop Subsection/DiscountSection.vue';
-import TrendingFood from './Shop Subsection/TrendingFood.vue';
-import StrengthsSection from './Shop Subsection/StrengthsSection.vue';
-import TestimonialSection from './Shop Subsection/TestimonialSection.vue';
-import CategoriesSection from './Shop Subsection/CategoriesSection.vue';
+import ContactSection from './ShopSubsection/ContactSection.vue';
+import DiscountSection from './ShopSubsection/DiscountSection.vue';
+import TrendingFood from './ShopSubsection/TrendingFood.vue';
+import StrengthsSection from './ShopSubsection/StrengthsSection.vue';
+import TestimonialSection from './ShopSubsection/TestimonialSection.vue';
+import CategoriesSection from './ShopSubsection/CategoriesSection.vue';
 export default {
     name: 'ShopSection',
     components: { CategoriesSection, TestimonialSection, StrengthsSection, TrendingFood, DiscountSection, ContactSection },

@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-    <subsection id="strengths">
+    <section id="strengths">
         <div class="container-fluid">
             <div class="row d-flex justify-content-center align-items-center">
                 <div v-for="strength in this.strengths" class="col-2 py-5">
@@ -34,7 +34,7 @@ export default {
                 </div>
             </div>
         </div>
-    </subsection>
+    </section>
 </template>
 
 <style scoped lang="scss">

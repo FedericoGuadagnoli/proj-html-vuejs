@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-    <subsection id="maxi-discount">
+    <section id="maxi-discount">
         <div class="container-fluid">
             <div class="row d-flex justify-content-center py-5 my-5">
                 <div v-for="scount in discounts" class="col-auto">
@@ -29,7 +29,7 @@ export default {
                 </div>
             </div>
         </div>
-    </subsection>
+    </section>
 </template>
 
 <style scoped lang="scss">

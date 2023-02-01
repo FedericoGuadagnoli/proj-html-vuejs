@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-    <subsection id="categories">
+    <section id="categories">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 text-center mb-3">
@@ -61,7 +61,7 @@ export default {
                 </div>
             </div>
         </div>
-    </Subsection>
+    </section>
 </template>
 
 <style scoped lang="scss">

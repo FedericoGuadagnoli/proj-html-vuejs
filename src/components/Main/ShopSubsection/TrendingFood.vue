@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-    <subsection id="trending-food">
+    <section id="trending-food">
         <div class="container-fluid">
             <div class="row gy-3 d-flex justify-content-center my-5 py-5  gap-3">
                 <div class="col-12 text-center">
@@ -39,7 +39,7 @@ export default {
                 </div>
             </div>
         </div>
-    </subsection>
+    </section>
 </template>
 
 <style scoped lang="scss">

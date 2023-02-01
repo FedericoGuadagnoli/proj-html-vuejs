@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-    <subsection id="contact-section">
+    <section id="contact-section">
         <div class="container-fluid py-5 my-5">
             <div class="row d-flex justify-content-center align-items-center">
                 <div
@@ -29,7 +29,7 @@ export default {
                 </div>
             </div>
         </div>
-    </subsection>
+    </section>
 </template>
 
 <style scoped lang="scss">

@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <subsection id="testimonial">
+    <section id="testimonial">
         <div class="container-fluid">
             <div class="row mt-5 pt-5">
                 <div class="col-12 d-flex justify-content-center">
@@ -24,7 +24,7 @@ export default {
                 </div>
             </div>
         </div>
-    </subsection>
+    </section>
 </template>
 
 <style scoped lang="scss">
