@@ -18,7 +18,8 @@ export default {
     <main>
         <jumbotron-section></jumbotron-section>
         <natural-products :products="store.naturalProducts"></natural-products>
-        <shop-section :productsCategories="store.categoriesProducts" :productsShop="store.shopProducts"></shop-section>
+        <shop-section :productsCategories="store.categoriesProducts" :productsShop="store.shopProducts"
+            :strengths="store.strengths"></shop-section>
     </main>
 </template>
 
