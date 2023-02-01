@@ -15,7 +15,8 @@ import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import { faGooglePlusG } from '@fortawesome/free-brands-svg-icons';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { faPhoneSquare } from '@fortawesome/free-solid-svg-icons';
-library.add(faSearch, faLocationDot, faEnvelope, faClockFour, faFacebookF, faTwitter, faInstagram, faPinterestP, faMagnifyingGlass, faCartShopping, faGooglePlusG, faChevronDown, faPhoneSquare);
+import { faUser } from '@fortawesome/free-solid-svg-icons';
+library.add(faSearch, faLocationDot, faEnvelope, faClockFour, faFacebookF, faTwitter, faInstagram, faPinterestP, faMagnifyingGlass, faCartShopping, faGooglePlusG, faChevronDown, faPhoneSquare, faUser);
 import App from './App.vue'
 const app = createApp(App);
 app.component('font-awesome-icon', FontAwesomeIcon);
