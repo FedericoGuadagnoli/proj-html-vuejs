@@ -166,6 +166,7 @@ export const store = reactive({
     Footerlinks: ['organic food shop', 'out team & condition', 'gogrin faw section', 'our team member', 'our latest news feed'],
     blog: [
         {
+            title: 'out latest blog',
             image: 'blo1-70x70.jpg',
             text: 'Where I live, I am surrounded by fesh,organic food,so I eat really well.',
             date: 'december 17,2022'
