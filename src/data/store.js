@@ -136,32 +136,32 @@ export const store = reactive({
     ],
     news: [
         {
-            img: 'blo1-300x300.jpg',
+            img: 'blo1-390x250.jpg',
             name: 'gogrin',
             date: '17 Dec 2022',
             title: 'Where I live, I am surrounded by fesh,organic food,so I eat really well.',
             text: 'lorem ipsum dolor sit anet,consectetur adipisicing elit,sed do eiusmod incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis',
-            link: 'ream more'
+            link: 'read more'
         },
         {
-            img: 'blo2-300x300.jpg',
+            img: 'blo2-390x250.jpg',
             name: 'gogrin',
             date: '16 Dec 2022',
             title: 'What we get at home is 100% organic food. We are also 90% vegetarian',
             text: 'lorem ipsum dolor sit anet,consectetur adipisicing elit,sed do eiusmod incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis',
-            link: 'ream more'
+            link: 'read more'
         },
         {
-            img: 'blo3-300x300.jpg',
+            img: 'blo3-390x250.jpg',
             name: 'gogrin',
             date: '15 Dec 2022',
             title: 'If we as a society are willing to have a preference for organic food farmer.',
             text: 'lorem ipsum dolor sit anet,consectetur adipisicing elit,sed do eiusmod incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis',
-            link: 'ream more'
+            link: 'read more'
         }
 
     ],
-    logos: ['brand1', 'brand4', 'brand3', 'brand1', 'brand2'],
+    logos: ['brand1.png', 'brand4.png', 'brand3.png', 'brand1.png', 'brand2.png'],
 
     Footerlinks: ['organic food shop', 'out team & condition', 'gogrin faw section', 'our team member', 'our latest news feed'],
     blog: [
