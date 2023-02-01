@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-    <Subsection id="categories-section">
+    <subsection id="categories">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 text-center mb-3">
