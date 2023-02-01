@@ -122,6 +122,18 @@ export const store = reactive({
             text: 'award winning',
         }
     ],
+    discounts: [
+        {
+            text: 'Fresh gurden tomato combo offer... $37',
+            link: 'shop now',
+            image: 'offer-img01.jpg'
+        },
+        {
+            text: 'Some organic healty fruits combo offer... $37',
+            link: 'shop now',
+            image: 'offer-img02.jpg'
+        }
+    ],
     news: [
         {
             img: 'blo1-300x300.jpg',
