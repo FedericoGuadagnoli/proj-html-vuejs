@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'DiscountSection',
+    name: 'StrengthsSection',
     props: {
         strengths: {
             type: Object,
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-    <subsection id="maxi-discount">
+    <subsection id="strengths">
         <div class="container-fluid">
             <div class="row d-flex justify-content-center align-items-center">
                 <div v-for="strength in this.strengths" class="col-2 py-5">
