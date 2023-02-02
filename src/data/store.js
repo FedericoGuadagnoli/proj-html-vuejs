@@ -1,7 +1,7 @@
 import { reactive } from "vue";
 export const store = reactive({
 
-
+    //^ HEADER
     Headerlinks: [
         {
             id: '1',
@@ -39,10 +39,16 @@ export const store = reactive({
         },
     ],
 
+    //^ BRANDS 
     brandsIcon: ['fa-brands fa-facebook-f', 'fa-brands fa-twitter', 'fa-brands fa-instagram', 'fa-brands fa-pinterest-p'],
 
+    //^ NATURAL PRODUCTS 
     naturalProducts: ['fe3.jpg', 'fe1.jpg', 'fe2.jpg', 'fe1.jpg'],
+
+    //^ CATEGORIES PRODUCTS
     categoriesProducts: ['all product', 'apple', 'food', 'orange', 'vegetable'],
+
+    //^ SHOP PRODUCTS
     shopProducts: [
         {
             id: '1',
@@ -56,7 +62,7 @@ export const store = reactive({
             name: 'fress cobies',
             oldPrize: '$18',
             prize: '$18',
-            label: 'sale'
+            label: 'sale!'
         },
         {
             id: '3',
@@ -70,7 +76,7 @@ export const store = reactive({
             name: 'organic juice',
             oldPrize: '$20',
             prize: '$15',
-            label: 'sale'
+            label: 'sale!'
         },
         {
             id: '5',
@@ -78,7 +84,7 @@ export const store = reactive({
             name: 'fresh blueberries',
             oldPrize: '$19',
             prize: '$14',
-            label: 'sale'
+            label: 'sale!'
         },
         {
             id: '6',
@@ -92,7 +98,7 @@ export const store = reactive({
             name: 'red gajor',
             oldPrize: '$29',
             prize: '$26',
-            label: 'sale'
+            label: 'sale!'
         },
         {
             id: '8',
@@ -122,6 +128,8 @@ export const store = reactive({
             text: 'award winning',
         }
     ],
+
+    //^ MAXI-SCOUNT PRODUCT 
     discounts: [
         {
             text: 'Fresh gurden tomato combo offer... $37',
@@ -134,6 +142,8 @@ export const store = reactive({
             image: 'offer-img02.jpg'
         }
     ],
+
+    //^ NEWS
     news: [
         {
             img: 'blo1-390x250.jpg',
@@ -161,9 +171,14 @@ export const store = reactive({
         }
 
     ],
+
+    //^ LOGOS
     logos: ['brand1.png', 'brand4.png', 'brand3.png', 'brand1.png', 'brand2.png'],
 
+    //^ LINKS EMERGENCY  
     Footerlinks: ['organic food shop', 'out team & condition', 'gogrin faw section', 'our team member', 'our latest news feed'],
+
+    //^ BLOGS
     blogs: [
         {
             title: 'out latest blog',
@@ -179,7 +194,11 @@ export const store = reactive({
             date: 'december 16,2022'
         }
     ],
+
+    //^ GALLERY
     gallery: ['blo1-70x70.jpg', 'blo9-70x70.jpg', 'blo8-70x70.jpg', 'blo7-70x70.jpg', 'blo4-70x70.jpg', 'blo3-70x70.jpg'],
+
+    //^ INFO FOOTER BOTTOM
     info:
     {
         copyright: 'Copyright © gogrin all rights reserved',
