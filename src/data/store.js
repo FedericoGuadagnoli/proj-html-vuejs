@@ -180,11 +180,9 @@ export const store = reactive({
         }
     ],
     gallery: ['blo1-70x70.jpg', 'blo9-70x70.jpg', 'blo8-70x70.jpg', 'blo7-70x70.jpg', 'blo4-70x70.jpg', 'blo3-70x70.jpg'],
-    info: [
-        {
-            copyright: 'Copyright © gogrin all rights reserved',
-            links: ['service', 'pricing table', 'contact']
-        }
-    ]
-
+    info:
+    {
+        copyright: 'Copyright © gogrin all rights reserved',
+    },
+    links: ['service', 'pricing table', 'contact']
 });
