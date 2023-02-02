@@ -179,6 +179,12 @@ export const store = reactive({
             date: 'december 16,2022'
         }
     ],
-    gallery: ['blo1-70x70.jpg', 'blo9-70x70.jpg', 'blo8-70x70.jpg', 'blo7-70x70.jpg', 'blo4-70x70.jpg', 'blo3-70x70.jpg']
+    gallery: ['blo1-70x70.jpg', 'blo9-70x70.jpg', 'blo8-70x70.jpg', 'blo7-70x70.jpg', 'blo4-70x70.jpg', 'blo3-70x70.jpg'],
+    info: [
+        {
+            copyright: 'Copyright © gogrin all rights reserved',
+            links: ['service', 'pricing table', 'contact']
+        }
+    ]
 
 });
