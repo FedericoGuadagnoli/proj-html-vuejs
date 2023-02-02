@@ -21,13 +21,13 @@ export default {
     <section id="strengths">
         <div class="container-fluid">
             <div class="row d-flex justify-content-center align-items-center">
-                <div v-for="strength in this.strengths" class="col-2 py-5">
-                    <div class="card  border-0 d-flex flex-row justify-content-center align-items-center gap-5">
-                        <div class="text-center">
+                <div v-for="strength in this.strengths" class="col-2 py-5 px-0 d-flex justify-content-center">
+                    <div class="card  border-0 d-flex flex-row justify-content-center align-items-center w-100">
+                        <div class="text-center w-75">
                             <h1 class="fw-bolder">{{ strength.number }}</h1>
                             <p class="text-light text-capitalize fw-semibold fs-5">{{ strength.text }}</p>
                         </div>
-                        <figure>
+                        <figure class="w-25 text-center">
                             <img v-if="strength.img" :src="buildImagePath(strength.img)" alt="counter">
                         </figure>
                     </div>

@@ -27,7 +27,9 @@ export default {
                         <time class="ms-2">8.30AM-8.30PM</time>
                     </div>
                     <div>
-                        <font-awesome-icon class="mx-2" v-for="brand in brands" :icon="brand"></font-awesome-icon>
+                        <a href="#" v-for="brand in brands" class="text-light">
+                            <font-awesome-icon class="mx-2" :icon="brand"></font-awesome-icon>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -17,7 +17,7 @@ export default {
 
 <template>
     <section id="news">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-12 text-center">
                     <h4 class="mt-5 fw-bold">The news what we have</h4>
@@ -26,7 +26,7 @@ export default {
                         feed
                     </h1>
                 </div>
-                <div v-for="news in this.news" class="col-2 my-5 d-flex flex-column gap-3">
+                <div v-for="news in this.news" class="col-4 my-5 d-flex flex-column gap-3">
                     <figure>
                         <img :src="buildImagePath(news.img)" alt="food" class=" img-fluid">
                     </figure>
@@ -46,7 +46,7 @@ export default {
                 </div>
             </div>
             <div class="row d-flex justify-content-center gap-5 pb-5 my-5">
-                <div v-for="logo in this.logos" class="col-1">
+                <div v-for="logo in this.logos" class="col-2">
                     <figure>
                         <img :src="buildImagePath(logo)" alt="logo">
                     </figure>
@@ -59,7 +59,7 @@ export default {
 <style scoped lang="scss">
 @use '../../assets/scss/partials/variables.scss' as *;
 
-.container-fluid {
+.container {
     margin-bottom: 10rem;
 }
 

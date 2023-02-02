@@ -20,7 +20,7 @@ export default {
 
 <template>
     <div class="footer-top">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row d-flex">
                 <div class="col-3">
                     <figure>
@@ -41,13 +41,13 @@ export default {
                         <li class="my-3 fw-semibold text-capitalize" v-for="link in this.links">{{ link }}</li>
                     </ul>
                 </div>
-                <div class="col-3 text-light p-0">
+                <div class="col-3 text-light ">
                     <ul class="p-0">
                         <li v-for="blog in this.blogs">
                             <h3 class="pb-3 text-capitalize fw-bolder" v-if="blog.title">{{ blog.title }}</h3>
                             <figure v-if="blog.image" class="d-flex gap-3 m-0 pb-3">
                                 <img :src="buildImagePath(blog.image)" alt="food" class="img-fluid h-50">
-                                <figcaption>
+                                <figcaption class="fw-semibold">
                                     <p class="m-0">{{ blog.text }}</p>
                                     <time>{{ blog.date }}</time>
                                 </figcaption>
@@ -55,9 +55,9 @@ export default {
                         </li>
                     </ul>
                 </div>
-                <div class="col-2 p-0 text-light ps-5">
+                <div class="col-3 p-0 text-light">
                     <h3 class="text-capitalize fw-bolder pb-3">our gallery</h3>
-                    <figure class="d-flex flex-wrap gap-2">
+                    <figure class="d-flex flex-wrap gap-2 justify-content-center w-75">
                         <img v-for="pic in gallery" :src="buildImagePath(pic)" alt="food">
                     </figure>
                 </div>
@@ -74,9 +74,8 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
 
-    .container-fluid {
+    .container {
         padding: 10rem 0 3rem;
-        width: 80%;
     }
 }
 
@@ -90,6 +89,16 @@ export default {
 
     ul {
         list-style-type: none;
+
+        li {
+
+            figure {
+
+                figcaption {
+                    font-size: 0.82rem;
+                }
+            }
+        }
     }
 
 }
