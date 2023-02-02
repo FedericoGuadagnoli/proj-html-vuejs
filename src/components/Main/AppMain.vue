@@ -10,7 +10,13 @@ export default {
     components: { JumbotronSection, NaturalProducts, ShopSection, NewsSection, MailForm },
     data() {
         return {
-            store
+            store,
+            mail: ''
+        }
+    },
+    methods: {
+        onMailInsert(mail) {
+            this.mail = mail;
         }
     }
 }
@@ -23,7 +29,7 @@ export default {
         <shop-section :productsCategories="store.categoriesProducts" :productsShop="store.shopProducts"
             :strengths="store.strengths" :discounts="store.discounts"></shop-section>
         <news-section :news="store.news" :logos="store.logos"></news-section>
-        <mail-form class="mail-form"></mail-form>
+        <mail-form class="mail-form" @mail-inserted="onMailInsert"></mail-form>
     </main>
 </template>
 
