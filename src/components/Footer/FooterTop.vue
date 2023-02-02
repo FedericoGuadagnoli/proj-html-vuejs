@@ -19,9 +19,13 @@ export default {
 </script>
 
 <template>
+
+    <!-- Footer Top -->
     <div class="footer-top">
         <div class="container">
             <div class="row d-flex">
+
+                <!-- Logo Description Brands-->
                 <div class="col-3">
                     <figure>
                         <img src="../../assets/img/footer-logo.png" alt="Gogrin">
@@ -33,14 +37,20 @@ export default {
                     <font-awesome-icon v-for="icon in this.icons" :icon="icon"
                         class="icon p-3 mx-1 text-light"></font-awesome-icon>
                 </div>
+
+                <!-- Emergency Links -->
                 <div class="col-3 text-light">
                     <ul>
                         <li>
                             <h3 class="text-capitalize fw-bolder pb-3">emergency link</h3>
                         </li>
-                        <li class="my-3 fw-semibold text-capitalize" v-for="link in this.links">{{ link }}</li>
+                        <li class="my-3 fw-semibold text-capitalize" v-for="link in this.links">
+                            <a class="text-light" href="#">{{ link }}</a>
+                        </li>
                     </ul>
                 </div>
+
+                <!-- Blog -->
                 <div class="col-3 text-light ">
                     <ul class="p-0">
                         <li v-for="blog in this.blogs">
@@ -55,6 +65,8 @@ export default {
                         </li>
                     </ul>
                 </div>
+
+                <!-- Gallery -->
                 <div class="col-3 p-0 text-light">
                     <h3 class="text-capitalize fw-bolder pb-3">our gallery</h3>
                     <figure class="d-flex flex-wrap gap-2 justify-content-center w-75">
@@ -80,6 +92,8 @@ export default {
 }
 
 .col-3 {
+
+    /* LOGO ICONS */
     .icon {
         width: 1rem;
         height: 1rem;
@@ -87,11 +101,18 @@ export default {
         border-radius: 5px;
     }
 
+    /* ALL UL */
     ul {
         list-style-type: none;
 
         li {
 
+            /* EMERGENCY LINKS */
+            a {
+                text-decoration: none;
+            }
+
+            /* BLOG */
             figure {
 
                 figcaption {

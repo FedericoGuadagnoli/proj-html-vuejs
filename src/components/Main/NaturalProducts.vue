@@ -18,6 +18,8 @@ export default {
     <section id="natural-products">
         <div class="container-fluid">
             <div class="row pe-3 d-flex g-1 ">
+
+                <!-- Title -->
                 <div class="col-4 offset-2 d-flex align-items-center">
                     <h1 class="fw-bolder">
                         <span>Look what</span>
@@ -26,6 +28,8 @@ export default {
                         we can do the same with clothes.
                     </h1>
                 </div>
+
+                <!-- Description -->
                 <div class="col-4 d-flex flex-column justify-content-center">
                     <p>I have a need to make this sorts of connections literal sometimes, and a
                         vehicle often helps
@@ -36,11 +40,15 @@ export default {
                     <p>Need to make these sorts of connections literal sometimes, and a vehicle often helps to do
                         that. I have a relantionship to hosting culture.</p>
                 </div>
+
+                <!-- Image 100% Natural -->
                 <div class="col-2 text-end ">
                     <figure>
                         <img src="../../assets/img/fe-shap1-1.png" alt="100% natural" class="img-fluid">
                     </figure>
                 </div>
+
+                <!-- List Picture -->
                 <div class="col-12 d-flex justify-content-center gap-4">
                     <figure v-for="product in products">
                         <img :src="buildImagePath(product)" alt="#">
@@ -59,15 +67,17 @@ export default {
 
     .row {
         margin: 7rem 0;
+
+        .col-4 {
+            h1 {
+                color: $color-green;
+                font-size: 3rem;
+            }
+
+            span {
+                color: $color-orange;
+            }
+        }
     }
-}
-
-h1 {
-    color: $color-green;
-    font-size: 3rem;
-}
-
-span {
-    color: $color-orange;
 }
 </style>

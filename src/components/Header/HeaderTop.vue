@@ -11,6 +11,8 @@ export default {
     <div class="header-top">
         <div class="container-fluid h-100">
             <div class="row d-flex justify-content-between h-100 text-light">
+
+                <!-- Address & Mail contact -->
                 <div class="col-4 d-flex h-100  align-items-center gap-5">
                     <div class="d-flex gap-1 align-items-center">
                         <font-awesome-icon class="" icon="fa-solid fa-location-dot"></font-awesome-icon>
@@ -21,6 +23,8 @@ export default {
                         <span>demo@example.com</span>
                     </div>
                 </div>
+
+                <!-- Time & Brands -->
                 <div class="col-4 d-flex h-100 justify-content-end align-items-center gap-5">
                     <div>
                         <font-awesome-icon icon="fa-solid fa-clock-four"></font-awesome-icon>

@@ -7,6 +7,8 @@ export default {
 </script>
 
 <template>
+
+    <!-- MAIL FORM -->
     <div class="row mb-3 d-flex justify-content-center">
         <div class="col-7 d-flex justify-content-between align-items-center p-5">
             <h2 class="text-uppercase text-light h-100 m-0">subscribe our newsletter</h2>

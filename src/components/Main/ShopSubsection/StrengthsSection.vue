@@ -18,6 +18,8 @@ export default {
 </script>
 
 <template>
+
+    <!-- Section Strengths -->
     <section id="strengths">
         <div class="container-fluid">
             <div class="row d-flex justify-content-center align-items-center">

@@ -15,9 +15,13 @@ export default {
 </script>
 
 <template>
+
+    <!-- Section Trending Food -->
     <section id="trending-food">
         <div class="container-fluid">
             <div class="row gy-3 d-flex justify-content-center my-5 py-5  gap-3">
+
+                <!-- Title -->
                 <div class="col-12 text-center">
                     <h4 class="mt-5 fw-bold">Running week top selling</h4>
                     <h1 class="text-uppercase fw-bolder">top
@@ -25,10 +29,18 @@ export default {
                         organic food
                     </h1>
                 </div>
+
+                <!-- Pictures -->
                 <div v-for="product in productsShop.slice(0, 4)" class="col-2 border text-center">
                     <figure>
                         <img :src="buildImagePath(product.image)" :alt="product.name">
+                        <div v-if="product.label" class="label-scount text-light text-uppercase fw-semibold fs-5">{{
+                            product.label
+                        }}
+                        </div>
                     </figure>
+
+                    <!-- Pictures Descriptions -->
                     <figcaption class="mb-3">
                         <h4 class="text-capitalize fw-bolder">{{ product.name }}</h4>
                         <div class="prizes">
@@ -45,6 +57,7 @@ export default {
 <style scoped lang="scss">
 @use '../../../assets/scss/partials/variables.scss' as *;
 
+/* TITLE */
 .col-12 {
     background-image: url(../../../assets/img/title-shap.png);
     background-repeat: no-repeat;
@@ -60,9 +73,24 @@ export default {
     }
 }
 
+/* PICTURES */
 .col-2 {
     box-shadow: 10px 1px 15px lightgrey;
 
+    /* LABEL SCOUNT */
+    figure {
+        position: relative;
+
+        .label-scount {
+            background-color: $bg-orange;
+            position: absolute;
+            padding: 5px 10px;
+            top: 3%;
+            right: 3%;
+        }
+    }
+
+    /* PRIZES */
     .prizes {
         .old-prize {
             text-decoration: line-through;

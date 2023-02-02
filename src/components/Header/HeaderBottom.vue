@@ -19,9 +19,17 @@ export default {
 <template>
     <div class="header-bottom">
         <div class="container-fluid h-100">
+
+            <!-- Navbar -->
             <div class="navbar h-100">
+
+                <!-- Navbar left -->
                 <div class=" navbar-left col-6 h-100 d-flex align-items-center gap-5">
+
+                    <!-- Logo -->
                     <img src="../../assets/img/logo.png" alt="Gogrin">
+
+                    <!-- Links -->
                     <ul class="h-100 d-flex gap-3 mb-0">
                         <li v-for="link in links" :key="link.id" class="h-100 d-flex ">
                             <a class=" d-flex align-items-center text-dark " href="#">{{ link.text }}
@@ -30,15 +38,23 @@ export default {
                         </li>
                     </ul>
                 </div>
+
+                <!-- Navbar right -->
                 <div class="navbar-right col-6 d-flex h-100 align-items-center justify-content-end gap-3">
+
+                    <!-- Search Icon -->
                     <div class=" search d-flex justify-content-center align-items-center text-light">
                         <font-awesome-icon icon="fa-solid fa-search"></font-awesome-icon>
                     </div>
+
+                    <!-- Shop Icon -->
                     <div class="shop d-flex gap-3 align-items-center">
                         <font-awesome-icon icon="fa-solid fa-cart-shopping"></font-awesome-icon>
                         <div class="number-items-in-cart d-flex justify-content-center align-items-center text-light">0
                         </div>
-                        <App-Button class=" order text-uppercase text-light">order now</App-Button>
+
+                        <!-- Button -->
+                        <App-Button class=" btn text-uppercase text-light">order now</App-Button>
                     </div>
                 </div>
             </div>
@@ -58,14 +74,21 @@ export default {
     }
 }
 
-a {
-    text-decoration: none;
+/* NAVBAR LEFT */
+ul {
+    li {
 
-    .img-fluid {
-        transform: translateY(20%);
+        a {
+            text-decoration: none;
+
+            .img-fluid {
+                transform: translateY(20%);
+            }
+        }
     }
 }
 
+/* NAVBAR RIGHT */
 .navbar-right {
 
     .search {
