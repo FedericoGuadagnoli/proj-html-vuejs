@@ -1,4 +1,5 @@
 <script>
+import { store } from '../../data/store';
 import FooterTop from './FooterTop.vue';
 export default {
     name: 'AppFooter',
@@ -13,7 +14,7 @@ export default {
 
 <template>
     <footer>
-        <footer-top :icons="store.brandsIcon" :links="store.FooterLinks" :blogs="store.blogs"
+        <footer-top :icons="store.brandsIcon" :links="store.Footerlinks" :blogs="store.blogs"
             :gallery="store.gallery"></footer-top>
     </footer>
 </template>
