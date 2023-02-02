@@ -77,6 +77,10 @@ export default {
             span {
                 color: $color-orange;
             }
+
+            p {
+                color: $color-lightblack;
+            }
         }
     }
 }

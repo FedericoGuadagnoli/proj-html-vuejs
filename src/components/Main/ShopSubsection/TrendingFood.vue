@@ -70,6 +70,7 @@ export default {
 
     h1 {
         font-size: 3rem;
+        color: $color-lightblack
     }
 }
 
@@ -90,10 +91,18 @@ export default {
         }
     }
 
+    /* NAME PRODUCTS */
+    h4 {
+        color: $color-lightblack
+    }
+
     /* PRIZES */
     .prizes {
+        color: $color-lightblack;
+
         .old-prize {
             text-decoration: line-through;
+            color: $color-grey
         }
     }
 }

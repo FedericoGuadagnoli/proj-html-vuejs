@@ -91,6 +91,7 @@ export default {
 
         h1 {
             font-size: 3rem;
+            color: $color-lightblack;
         }
     }
 
@@ -112,6 +113,10 @@ export default {
         a {
             text-decoration: none;
             color: $color-green;
+        }
+
+        p {
+            color: $color-lightblack;
         }
     }
 }

@@ -42,7 +42,15 @@ export default {
 <style scoped lang="scss">
 @use '../../../assets/scss/partials/variables.scss' as *;
 
-.role {
-    color: $color-orange;
+.card {
+
+    p,
+    h4 {
+        color: $color-lightblack
+    }
+
+    .role {
+        color: $color-orange;
+    }
 }
 </style>
