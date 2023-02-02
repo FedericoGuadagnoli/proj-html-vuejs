@@ -167,6 +167,8 @@ export const store = reactive({
     blogs: [
         {
             title: 'out latest blog',
+        },
+        {
             image: 'blo1-70x70.jpg',
             text: 'Where I live, I am surrounded by fesh,organic food,so I eat really well.',
             date: 'december 17,2022'
